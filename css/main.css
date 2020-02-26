@@ -1,0 +1,26 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 12fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        'nav'
+        'header'
+        'main'
+        'footer';
+}
+
+nav {
+    grid-area: nav;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
